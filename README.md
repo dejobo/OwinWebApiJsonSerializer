@@ -1,3 +1,3 @@
 # OwinWebApiJsonSerializer
 
-This OWIN Middleware helps serializes and formats JSON results from ASP.NET Web API Hosted within OWIN server/SelfHost
+This OWIN Middleware serializes and formats JSON results from ASP.NET Web API Hosted within OWIN server/Self Hosted Owin Web API.
