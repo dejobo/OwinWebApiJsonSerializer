@@ -27,6 +27,24 @@ public void Configuration(IAppBuilder app)
     
     app.UseWebApi(config);
     
+    app.UseWebApiJsonSerialization(config);
+}
+
+```
+
+More Control...
+
+
+
+```CSHARP
+public void Configuration(IAppBuilder app)
+{
+    HttpConfiguration config = new HttpConfiguration();
+
+    -----------------------------
+    
+    app.UseWebApi(config);
+    
     app.UseWebApiJsonSerialization(new JsonSerializerMiddlewareOption
     {
         HttpConfiguration = config,
@@ -35,3 +53,8 @@ public void Configuration(IAppBuilder app)
 }
 
 ```
+
+License
+-------
+
+MIT License: http://www.opensource.org/licenses/mit-license.php
