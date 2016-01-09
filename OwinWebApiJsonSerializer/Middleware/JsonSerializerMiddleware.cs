@@ -3,10 +3,10 @@ using System.Threading.Tasks;
 using System.Web.Http;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
+
 using AppFunc = System.Func<
     System.Collections.Generic.IDictionary<string, object>,
     System.Threading.Tasks.Task>;
-
 
 namespace OwinWebApiJsonSerializer
 {
